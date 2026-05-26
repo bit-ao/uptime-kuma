@@ -80,6 +80,7 @@ const Evolution = require("./notification-providers/evolution");
 const GtxMessaging = require("./notification-providers/gtx-messaging");
 const Cellsynt = require("./notification-providers/cellsynt");
 const Onesender = require("./notification-providers/onesender");
+const GoWA = require("./notification-providers/gowa");
 const Wpush = require("./notification-providers/wpush");
 const SendGrid = require("./notification-providers/send-grid");
 const Brevo = require("./notification-providers/brevo");
@@ -148,6 +149,7 @@ class Notification {
             new OneChat(),
             new OneBot(),
             new Onesender(),
+            new GoWA(),
             new Opsgenie(),
             new JiraServiceManagement(),
             new PagerDuty(),

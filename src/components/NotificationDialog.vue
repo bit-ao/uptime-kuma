@@ -247,6 +247,7 @@ export default {
                 evolution: "WhatsApp (Evolution)",
                 waha: "WhatsApp (WAHA)",
                 Whatsapp360messenger: "WhatsApp (360messenger)",
+                gowa: "WhatsApp (GoWA - go-whatsapp-web-multidevice)",
             };
 
             // Push Services - Push notification services
